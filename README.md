@@ -14,8 +14,11 @@ https://drive.google.com/drive/folders/151c1Y276AZuV2TZSJ3FzA9WNSva65xae?usp=sha
 
 # How to run:
 Step 1: Go to the drive link mentioned under dataset.
+
 Step 2: Click on 'Final NLP' dropdown menu.
+
 Step 3: Select "Add Shortcut to Drive" from the menu.
+
 
 Now you can access the dataset from your google drive. 
 
