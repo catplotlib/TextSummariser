@@ -1,4 +1,9 @@
 # Text Summariser
+
+More details: 
+- https://medium.com/@catplotlib/in-the-field-of-natural-language-processing-nlp-summarization-plays-a-crucial-role-in-reducing-519af0432d96
+- https://medium.com/@catplotlib/revolutionizing-text-summarization-with-abstractive-techniques-a-deep-dive-into-abstractive-14014bd54a00
+
 There are three python files in this repository:
 ## 1. EX_final.ipynb: 
 Has the code for an Extractive Summarisation Technique that uses a pre-trained Glove model with 100-dimensional word vectors to create the sentence vectors, and it uses the sent_tokenize function from the NLTK package to tokenize the text into sentences.
