@@ -1,30 +1,20 @@
-# Text Summariser
-
-More details: 
-- https://medium.com/@catplotlib/in-the-field-of-natural-language-processing-nlp-summarization-plays-a-crucial-role-in-reducing-519af0432d96
-- https://medium.com/@catplotlib/revolutionizing-text-summarization-with-abstractive-techniques-a-deep-dive-into-abstractive-14014bd54a00
-
-There are three python files in this repository:
-## 1. EX_final.ipynb: 
-Has the code for an Extractive Summarisation Technique that uses a pre-trained Glove model with 100-dimensional word vectors to create the sentence vectors, and it uses the sent_tokenize function from the NLTK package to tokenize the text into sentences.
-
-## 2. AB_final.ipynb:
-Has the code for an Abstractive Summarisation Technique that uses a sequence-to-sequence (seq2seq) encoder-decoder architecture to generate text.
-
-## 3. BART_final.ipynb: 
-Has the usage of a pretrained code for an Abstractive Summarisation Technique that uses the pre-trained T5 model to generate a summary of the input text. 
-
-# Dataset
-https://drive.google.com/drive/folders/151c1Y276AZuV2TZSJ3FzA9WNSva65xae?usp=sharing
-
-# How to run:
-Step 1: Go to the drive link mentioned under dataset.
-
-Step 2: Click on 'Final NLP' dropdown menu.
-
-Step 3: Select "Add Shortcut to Drive" from the menu.
+# Text Summarizer
+This repository contains three different techniques for text summarization: Extractive, Abstractive, and BART-based Abstractive summarization. To learn more about these techniques, refer to the following articles:
 
 
-Now you can access the dataset from your google drive. 
+- (Introduction to Text Summarization)[https://medium.com/@catplotlib/in-the-field-of-natural-language-processing-nlp-summarization-plays-a-crucial-role-in-reducing-519af0432d96]
+- (Revolutionizing Text Summarization with Abstractive Techniques)[https://medium.com/@catplotlib/revolutionizing-text-summarization-with-abstractive-techniques-a-deep-dive-into-abstractive-14014bd54a00]
 
-You can run all three files now from your google Colab accounts.
+## Repository Contents
+- EX_final.ipynb: Extractive Summarization technique using a pre-trained GloVe model with 100-dimensional word vectors to create sentence vectors. The NLTK package's sent_tokenize function is used for tokenizing text into sentences.
+- AB_final.ipynb: Abstractive Summarization technique using a sequence-to-sequence (seq2seq) encoder-decoder architecture to generate summarized text.
+- BART_final.ipynb: Abstractive Summarization technique using the pre-trained T5 model to generate a summary of the input text.
+
+## Dataset
+The dataset for this project is available (here)[https://drive.google.com/drive/folders/151c1Y276AZuV2TZSJ3FzA9WNSva65xae?usp=sharing].
+
+## How to Run
+- Go to the dataset link.
+- Click on the 'Final NLP' dropdown menu.
+- Select "Add Shortcut to Drive" from the menu to add the dataset to your Google Drive.
+- Now you can access the dataset from your Google Drive and run all three notebooks using Google Colab.
